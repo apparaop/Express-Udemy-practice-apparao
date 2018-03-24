@@ -1,0 +1,18 @@
+{
+  "name": "express-udemy-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "echo 'run dev' & npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "node node_modules/nodemon/bin/nodemon.js --config tsconfig.json --exec npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.0"
+  }
+}
