@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
 //res.send("Hello apparao");
     res.send({
 
-        name:'MahiManvitha',
+        name:'Madhukar Narra',
         books:[
             'one','two'
         ]
